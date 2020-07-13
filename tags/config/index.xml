@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>config on Varnish | IT Quicktasks</title>
+    <link>https://ismael.casimpan.com/quicktasks-varnish/tags/config/</link>
+    <description>Recent content in config on Varnish | IT Quicktasks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Oct 2019 23:17:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://ismael.casimpan.com/quicktasks-varnish/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Redirect Via Varnish</title>
+      <link>https://ismael.casimpan.com/quicktasks-varnish/redirect-via-varnish/</link>
+      <pubDate>Tue, 01 Oct 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-varnish/redirect-via-varnish/</guid>
+      <description> https://www.rsreese.com/redirect-http-to-https-using-varnish/ https://varnish-cache.org/tips/vcl/redirect.html https://www.dmsp.de/system-administration/varnish-cache-vcl-301-redirect/  </description>
+    </item>
+    
+    <item>
+      <title>Simple Varnish Config</title>
+      <link>https://ismael.casimpan.com/quicktasks-varnish/simple-varnish-config/</link>
+      <pubDate>Tue, 01 Oct 2019 23:17:11 +0800</pubDate>
+      
+      <guid>https://ismael.casimpan.com/quicktasks-varnish/simple-varnish-config/</guid>
+      <description>Config is an exact copy of https://gist.github.com/jeremyjbowers/1542949. Copying it here verbatim to avoid bit rot.
+/* * * First, set up a backend to answer the request if there&#39;s not a cache hit. * */ backend default { # Set a host. .host = &amp;quot;192.168.1.100&amp;quot;; # Set a port. 80 is normal Web traffic. .port = &amp;quot;8000&amp;quot;; } /* * * Next, configure the &amp;quot;receive&amp;quot; subroutine. * */ sub vcl_recv { # Use the backend we set up above to answer the request if it&#39;s not cached.</description>
+    </item>
+    
+  </channel>
+</rss>
